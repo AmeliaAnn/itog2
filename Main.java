@@ -1,9 +1,12 @@
-package itog2.com;
+package itog2;
 
 import java.util.*;
+public class Main {
 
-    public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
+  public static void main(String[] args) {
+   
+   
+   Scanner in = new Scanner(System.in);
         System.out.print("Введите размер массива: ");
         int n = in.nextInt();
         int[] arr = new int[n];
@@ -28,7 +31,7 @@ import java.util.*;
     }
 
 
-    public static void shellSort(int[] arr) {
+public static void shellSort(int[] arr) {
         int inner, outer;
         int temp;
         int h = 1;
@@ -51,5 +54,8 @@ import java.util.*;
             }
             //на каждом шаге уменьшаем h
             h = (h - 1) / 3;
-        }
-    }
+               }
+             }
+           }
+     
+
